@@ -20,7 +20,8 @@ module.exports = {
         return {
             resolve: {
                 alias: {
-                    "@": require("path").resolve(__dirname, "examples")
+                    "@": require("path").resolve(__dirname, "examples"),
+                    "~": require("path").resolve(__dirname, "components")
                 }
             }
         }
